@@ -51,7 +51,7 @@
 				</extension>
 			</track>
 			<track>
-				<title>4Music</title>
+				<title>E4 Extra</title>
 				<location>dvb-t://frequency=482000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>29</vlc:id>
@@ -176,14 +176,6 @@
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>61</vlc:id>
 					<vlc:option>program=23872</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>ADULT Xpanded TV</title>
-				<location>dvb-t://frequency=482000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>48</vlc:id>
-					<vlc:option>program=24128</vlc:option>
 				</extension>
 			</track>
 			<track>
@@ -445,19 +437,27 @@
 				</extension>
 			</track>
 			<track>
+				<title>Pop Player</title>
+				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
+				<extension application="http://www.videolan.org/vlc/playlist/0">
+					<vlc:id>30</vlc:id>
+					<vlc:option>program=12960</vlc:option>
+				</extension>
+			</track>
+			<track>
+				<title>FailArmy</title>
+				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
+				<extension application="http://www.videolan.org/vlc/playlist/0">
+					<vlc:id>30</vlc:id>
+					<vlc:option>program=12968</vlc:option>
+				</extension>
+			</track>
+			<track>
 				<title>5 USA</title>
 				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>21</vlc:id>
 					<vlc:option>program=12992</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>Craft Extra</title>
-				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>21</vlc:id>
-					<vlc:option>program=13000</vlc:option>
 				</extension>
 			</track>
 			<track>
@@ -525,7 +525,7 @@
 				</extension>
 			</track>
 			<track>
-				<title>Horror Channel</title>
+				<title>Legend</title>
 				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>268</vlc:id>
@@ -586,22 +586,6 @@
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>251</vlc:id>
 					<vlc:option>program=15064</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>Kiss Chat &amp; Date</title>
-				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>252</vlc:id>
-					<vlc:option>program=15080</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>Proud Dating</title>
-				<location>dvb-t://frequency=506000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>253</vlc:id>
-					<vlc:option>program=15096</vlc:option>
 				</extension>
 			</track>
 			<track>
@@ -1206,6 +1190,14 @@
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>40</vlc:id>
 					<vlc:option>program=34048</vlc:option>
+				</extension>
+			</track>
+			<track>
+				<title>RealityXtra</title>
+				<location>dvb-t://frequency=586000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
+				<extension application="http://www.videolan.org/vlc/playlist/0">
+					<vlc:id>40</vlc:id>
+					<vlc:option>program=34112</vlc:option>
 				</extension>
 			</track>
 			
