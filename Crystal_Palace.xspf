@@ -202,6 +202,7 @@
 					<vlc:option>program=24500</vlc:option>
 				</extension>
 			</track>
+			
 			<track>
 				<title>BBC ONE Lon</title>
 				<location>dvb-t://frequency=490000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
@@ -1015,6 +1016,14 @@
 					<vlc:option>program=27424</vlc:option>
 				</extension>
 			</track>
+				<track>
+				<title>Quest Red+ 1</title>
+				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
+				<extension application="http://www.videolan.org/vlc/playlist/0">
+					<vlc:id>73</vlc:id>
+					<vlc:option>program=27488</vlc:option>
+				</extension>
+			</track>
 			<track>
 				<title>ADULT Section</title>
 				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
@@ -1048,26 +1057,10 @@
 				</extension>
 			</track>
 			<track>
-				<title>CBS Justice</title>
-				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>39</vlc:id>
-					<vlc:option>program=27744</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>CBS Drama</title>
-				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>71</vlc:id>
-					<vlc:option>program=27776</vlc:option>
-				</extension>
-			</track>
-			<track>
 				<title>HobbyMaker</title>
 				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
 				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>71</vlc:id>
+					<vlc:id>39</vlc:id>
 					<vlc:option>program=27840</vlc:option>
 				</extension>
 			</track>
@@ -1088,6 +1081,14 @@
 				</extension>
 			</track>
 			<track>
+				<title>That's TV (UK)</title>
+				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
+				<extension application="http://www.videolan.org/vlc/playlist/0">
+					<vlc:id>674</vlc:id>
+					<vlc:option>program=27936</vlc:option>
+				</extension>
+			</track>
+			<track>
 				<title>PBS America</title>
 				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
 				<extension application="http://www.videolan.org/vlc/playlist/0">
@@ -1101,6 +1102,14 @@
 				<extension application="http://www.videolan.org/vlc/playlist/0">
 					<vlc:id>25</vlc:id>
 					<vlc:option>program=28000</vlc:option>
+				</extension>
+			</track>
+			<track>
+				<title>Classic Hits</title>
+				<location>dvb-t://frequency=529800000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
+				<extension application="http://www.videolan.org/vlc/playlist/0">
+					<vlc:id>25</vlc:id>
+					<vlc:option>program=28032</vlc:option>
 				</extension>
 			</track>
 			<track>
@@ -1201,117 +1210,5 @@
 				</extension>
 			</track>
 			
-			<track>
-				<title>BBC NEWS HD</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>107</vlc:id>
-					<vlc:option>program=40960</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>BBC FOUR HD</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>107</vlc:id>
-					<vlc:option>program=40976</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>CBeebies HD</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>109</vlc:id>
-					<vlc:option>program=40992</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>QUEST HD</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>110</vlc:id>
-					<vlc:option>program=41040</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>QVC HD</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>108</vlc:id>
-					<vlc:option>program=41056</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>QVC Beauty HD</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>108</vlc:id>
-					<vlc:option>program=41064</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>FreeSports</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>74</vlc:id>
-					<vlc:option>program=41184</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>More4+ 1</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>733</vlc:id>
-					<vlc:option>program=41200</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>NOW 80s</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>733</vlc:id>
-					<vlc:option>program=41216</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>PBS America +1</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>733</vlc:id>
-					<vlc:option>program=41248</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>Forces TV</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>733</vlc:id>
-					<vlc:option>program=41280</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>Together TV</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>733</vlc:id>
-					<vlc:option>program=41312</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>That's TV (UK)</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>113</vlc:id>
-					<vlc:option>program=41392</vlc:option>
-				</extension>
-			</track>
-			<track>
-				<title>Quest Red+ 1</title>
-				<location>dvb-t2://frequency=746000000:inversion=2:bandwidth=8:code-rate-hp=3:code-rate-lp=0:modulation=64:transmission=8:guard=32:hierarchy=-1</location>
-				<extension application="http://www.videolan.org/vlc/playlist/0">
-					<vlc:id>249</vlc:id>
-					<vlc:option>program=41424</vlc:option>
-				</extension>
-			</track>
 		</trackList>
 	</playlist>
